@@ -7,17 +7,17 @@ import Socials from "../ui/LeftSide/Socials";
 type Props = {};
 
 const LeftSideContainer = (props: Props) => {
-	return (
-		<div>
-			<TitleComponent />
-			<SubtitleComponent />
-			<DescriptionComponent />
+  return (
+    <div>
+      <TitleComponent />
+      <SubtitleComponent />
+      <DescriptionComponent />
 
-			<div className="mt-10">
-				<Socials />
-			</div>
-		</div>
-	);
+      <div className="mt-10">
+        <Socials />
+      </div>
+    </div>
+  );
 };
 
 export default LeftSideContainer;
