@@ -7,9 +7,9 @@ type Props = {
 
 const Experiences = ({ experiences }: Props) => {
   const buildExperiences = () => {
-    return experiences.map((experience) => {
+    return experiences.map((experience, index) => {
       return (
-        <li className="mb-12">
+        <li className="mb-12" key={index}>
           <ExperienceCard
             role={experience.role}
             company={experience.company}
