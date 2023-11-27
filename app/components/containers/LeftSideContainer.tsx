@@ -1,14 +1,14 @@
 import React from "react";
-import TitleComponent from "../ui/Header/TitleComponent";
-import SubtitleComponent from "../ui/Header/SubtitleComponent";
-import DescriptionComponent from "../ui/Header/DescriptionComponent";
-import Socials from "../ui/LeftSide/Socials";
+import TitleComponent from "@components/ui/Header/TitleComponent";
+import SubtitleComponent from "@components/ui/Header/SubtitleComponent";
+import DescriptionComponent from "@components/ui/Header/DescriptionComponent";
+import Socials from "@components/ui/LeftSide/Socials";
 
 type Props = {};
 
 const LeftSideContainer = (props: Props) => {
   return (
-    <div>
+    <div className="sticky">
       <TitleComponent />
       <SubtitleComponent />
       <DescriptionComponent />
