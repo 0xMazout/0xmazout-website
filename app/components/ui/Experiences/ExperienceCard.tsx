@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { ChainLink } from "@/public/icons/components/ChainLink";
 import { Experience } from "@/app/types/types";
-s;
+
 const ExperienceCard = ({
   role,
   company,
