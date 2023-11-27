@@ -7,7 +7,7 @@ type Props = {};
 const RightSideContainer = (props: Props) => {
   return (
     <div className="mt-10">
-      RightSideContainer <About /> <ExperiencesContainer /> Projects
+      <About /> <ExperiencesContainer /> Projects
     </div>
   );
 };

@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute ">
         <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
           {children}
         </body>

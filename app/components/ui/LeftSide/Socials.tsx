@@ -9,8 +9,6 @@ const Socials = () => {
       <Github className="fill-slate-500 hover:fill-white w-5 h-5 cursor-pointer" />
       <Linkedin className="fill-slate-500 hover:fill-white w-5 h-5 cursor-pointer" />
       <Twitter className="fill-slate-500 hover:fill-white w-5 h-5 cursor-pointer" />
-      {/* Github Linkedin Twitter Logo Pulse : Linkedin de Pulse Logo Oxyzon :
-      Linkedin de Oxyzon Logo AC : Twitter Altier Capital */}
     </div>
   );
 };
