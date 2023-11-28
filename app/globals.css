@@ -18,6 +18,16 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  /* background: linear-gradient(to bottom,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: rgb(2, 0, 36);
+  background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(9, 22, 121, 1) 37%, rgba(2, 91, 86, 1) 100%); */
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(20, 41, 189, 1) 50%, rgba(22, 124, 182, 1) 100%); */
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(12, 26, 122, 1) 50%, rgba(15, 89, 129, 1) 100%); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(45, 51, 85, 1) 50%, rgba(15, 61, 87, 1) 100%);
 }
 
 p {
