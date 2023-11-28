@@ -14,11 +14,27 @@ const About = (props: Props) => {
           ABOUT
         </h2>
       </div>
-      <p>
+      <p className="inline text-lg">
         I've spent the last 10 years working software engineering. And I've been
-        fortunate enough to work with some amazing people and companies. In 2018
-        I decided to take a break from the corporate world and focus on Web3 and
-        Blockchain Environment. I felt literaly in love with this space.
+        fortunate enough to work with some amazing people and companies. In{" "}
+        <span className="text-teal-600">2018</span> I decided to take a break
+        from the{" "}
+        <span className="text-blue-600 font-bold">Corporate world</span> and
+        focus on{" "}
+        {
+          <span className="bg-clip-text bg-gradient-to-r text-xl text-transparent from-lime-600 via-purple-600 to-teal-600 hover:decoration-teal-300 hover:underline underline-offset-4 transition">
+            Web3 and Blockchain space
+          </span>
+        }
+        . I felt literaly in love with this space. I'm currently member of a
+        private group{" "}
+        <Link
+          className="bg-clip-text font-bold text-xl text-slate-200  hover:decoration-teal-300 hover:underline underline-offset-4 transition"
+          href={"https://twitter.com/AltierCapital"}
+        >
+          Altier Capital
+        </Link>{" "}
+        where we are building projects together.
       </p>
     </section>
   );
