@@ -43,7 +43,7 @@ const Projects = ({ projects }: Props) => {
       <div>
         <ol className="group/list">{buildProjects()}</ol>
       </div>
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <a
           className="inline-flex items-center leading-tight font-semibold text-slate-200 group"
           aria-label="View Full Resume"
@@ -70,7 +70,7 @@ const Projects = ({ projects }: Props) => {
             </span>
           </span>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

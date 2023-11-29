@@ -12,7 +12,7 @@ const ExperiencesContainer = (props: Props) => {
       companyLink: "https://oxyzon.xyz/",
       startDate: "2023",
       endDate: "2023  ",
-      description: `Built from A to Z a Web3 platform to provide to communties/influencers a way to create a safe copy trading system for their community `,
+      description: `Built from A to Z a Web3 platform to provide to communities/influencers a way to create a safe copy trading system for their community `,
       techStack: [
         "NextJs",
         "React",
