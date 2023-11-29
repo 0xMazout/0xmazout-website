@@ -1,7 +1,6 @@
 "use client";
-import React, { useState, useEffect, useCallback } from "react";
-import { useDebounce } from "usehooks-ts";
-import { cn } from "../../../utils/utils";
+import React, { useState, useEffect } from "react";
+import { cn } from "@/app/utils/utils";
 
 type Props = {};
 
@@ -27,7 +26,7 @@ const Navbar = (props: Props) => {
       threshold: 0.5,
     });
 
-    const sections = ["about", "experience", "projects"];
+    const sections = ["about", "experience", "project"];
     sections.forEach((section) => {
       const element = document.getElementById(section);
       if (element) {
@@ -94,22 +93,22 @@ const Navbar = (props: Props) => {
       <li>
         <a
           className={`group flex items-center py-3 `}
-          href="#projects"
+          href="#project"
           onClick={() => setActiveSection("projects")}
         >
           <span
             className={cn(
               "nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none",
-              activeSection == "projects" && "w-16 bg-slate-200",
+              activeSection == "project" && "w-16 bg-slate-200",
             )}
           ></span>
           <span
             className={cn(
               "nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200",
-              activeSection == "projects" && " text-slate-200",
+              activeSection == "project" && " text-slate-200",
             )}
           >
-            Projects
+            Project
           </span>
         </a>
       </li>

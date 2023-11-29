@@ -1,19 +1,20 @@
 import React from "react";
-
+import Image from "next/image";
 import Link from "next/link";
 import { ChainLink } from "@/public/icons/components/ChainLink";
-import { Experience } from "@/app/types/types";
+import { Experience, Project } from "@/app/types/types";
+import oxyzon_wallpaper from "@/public/images/oxyzon_wallpaper.png";
 
-const ExperienceCard = ({
-  role,
-  company,
+const ProjectCard = ({
+  project,
   startDate,
   endDate,
   description,
   techStack,
   links,
-  companyLink,
-}: Experience) => {
+  projectLink,
+  wallpaper,
+}: Project) => {
   const buildTechStack = () => {
     return techStack.map((tech, index) => {
       return (
@@ -33,8 +34,6 @@ const ExperienceCard = ({
           <Link
             href={link.url}
             className="relative mt-2 items-baseline inline-flex text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <ChainLink />
             <h4 className={`mb-3 text-lg font-semibold`}>{link.name} </h4>
@@ -61,21 +60,25 @@ const ExperienceCard = ({
       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
       <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
         {startDate} — {endDate}
+        <Image
+          loading="lazy"
+          alt=""
+          width="200"
+          height="48"
+          className="mt-2 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 bg-transparent hover:border-teal-300 focus-visible:border-teal-300 motion-reduce:transition-none"
+          src={wallpaper}
+        />
       </header>
       <div className="z-10 col-span-6 ">
         <h3 className="font-medium leading-snug text-slate-200">
           <div>
             <Link
               className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-              href={companyLink}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={projectLink}
             >
               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
               <h5 className="inline-block">
-                {role}
-                {" @ "}
-                {company}
+                {project}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -104,4 +107,4 @@ const ExperienceCard = ({
   );
 };
 
-export default ExperienceCard;
+export default ProjectCard;
