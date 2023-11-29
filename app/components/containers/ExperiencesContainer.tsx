@@ -46,7 +46,6 @@ const ExperiencesContainer = (props: Props) => {
         "WASM",
         "Golang",
         "NodeJS",
-        "MySql",
       ],
       links: [],
     },

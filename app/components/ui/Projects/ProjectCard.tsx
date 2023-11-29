@@ -62,9 +62,10 @@ const ProjectCard = ({
         {startDate} — {endDate}
         <Image
           loading="lazy"
-          alt=""
-          width="200"
-          height="48"
+          alt="image of project"
+          width="150"
+          height="120"
+          style={{ width: "150px", height: "120px" }}
           className="mt-2 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 bg-transparent hover:border-teal-300 focus-visible:border-teal-300 motion-reduce:transition-none"
           src={wallpaper}
         />
