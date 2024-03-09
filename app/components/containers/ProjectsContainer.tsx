@@ -26,6 +26,23 @@ const ProjectsContainer = (props: Props) => {
       wallpaper: require("@/public/images/oxyzon_wallpaper.png"),
     },
     {
+      project: "MetiScriptions",
+      projectLink: "https://twitter.com",
+      startDate: "2023",
+      endDate: "2023",
+      description: `Marketplace Inscription on Metis L2 - We provided UI to mint , deploy and sell inscriptions `,
+      techStack: [
+        "NextJs",
+        "React",
+        "Typescript",
+        "Tailwind",
+        "Solidity",
+        "Hardhat",
+        "Golang",
+      ],
+      wallpaper: require("@/public/images/portalsFinance.png"),
+    },
+    {
       project: "Portals Finance",
       projectLink: "https://twitter.com/PortalsFinance",
       startDate: "2022",

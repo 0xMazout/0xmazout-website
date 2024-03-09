@@ -7,6 +7,29 @@ type Props = {};
 const ExperiencesContainer = (props: Props) => {
   const experiences: Experience[] = [
     {
+      role: "Senior Software Engineer Web3",
+      company: "DAO",
+      companyLink: "https://www.linkedin.com/in/lucas-fabre-info/",
+      startDate: "12 - 2023",
+      endDate: "03 - 2023",
+      description: `Leading Web3 Frontend Subjects, building hooks to interract with smart contracts , Acquiring data from the blockchain,    `,
+      techStack: [
+        "NextJs",
+        "React",
+        "Typescript",
+        "Tailwind",
+        "Solidity",
+        "Git",
+        "The Graph",
+        "Cow Swap SDK",
+        "EthersJS",
+        "Wagmi",
+        "Foundry",
+        "Privy",
+        "Figma",
+      ],
+    },
+    {
       role: "Co-Founder & CTO",
       company: "Oxyzon",
       companyLink: "https://oxyzon.xyz/",
@@ -27,11 +50,12 @@ const ExperiencesContainer = (props: Props) => {
         "Foundry",
         "Wallet Connect V2",
         "Figma",
+        "Rainbow Wallet",
       ],
       links: [{ name: "X", url: "https://twitter.com/Oxyzon_" }],
     },
     {
-      role: "Senior Software Engineer",
+      role: "Senior Software Engineer Web3",
       company: "Massa Labs",
       companyLink: "https://massa.net/",
       startDate: "2022",
