@@ -40,7 +40,7 @@ const ProjectsContainer = (props: Props) => {
         "Hardhat",
         "Golang",
       ],
-      wallpaper: require("@/public/images/portalsFinance.png"),
+      wallpaper: require("@/public/images/metiScriptions.png"),
     },
     {
       project: "Portals Finance",

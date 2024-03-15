@@ -20,10 +20,10 @@ const About = (props: Props) => {
       <p className="inline text-lg">
         I've spent the last{" "}
         <span className="bg-clip-text bg-gradient-to-r text-xl text-transparent from-lime-600 via-purple-600 to-teal-600 hover:decoration-teal-300 hover:underline underline-offset-4 transition">
-          10 years working software engineering
+          10 years working in software engineering
         </span>
         . And I've been fortunate enough to work with some amazing people and
-        companies. In 2018 I decided to take a break from the Corporate world
+        companies. In 2018, I decided to take a break from the Corporate world
         and now
         {
           <span className="bg-clip-text bg-gradient-to-r text-xl text-transparent from-lime-600 via-purple-600 to-teal-600 hover:decoration-teal-300 hover:underline underline-offset-4 transition">
