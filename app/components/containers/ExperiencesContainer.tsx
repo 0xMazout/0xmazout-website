@@ -8,10 +8,10 @@ const ExperiencesContainer = (props: Props) => {
   const experiences: Experience[] = [
     {
       role: "Senior Software Engineer Web3",
-      company: "DAO",
-      companyLink: "https://www.linkedin.com/in/lucas-fabre-info/",
+      company: "Usual",
+      companyLink: "https://usual.money/",
       startDate: "12 - 2023",
-      endDate: "03 - 2023",
+      endDate: "03 - 2024",
       description: `Leading Web3 Frontend Subjects, building hooks to interract with smart contracts , Acquiring data from the blockchain,    `,
       techStack: [
         "NextJs",
@@ -28,6 +28,7 @@ const ExperiencesContainer = (props: Props) => {
         "Privy",
         "Figma",
       ],
+      links: [{ name: "X", url: "https://x.com/usualmoney" }],
     },
     {
       role: "Co-Founder & CTO",
