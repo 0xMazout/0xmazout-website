@@ -5,7 +5,7 @@ import { cn } from "@/app/utils/utils";
 type Props = {};
 
 const Navbar = (props: Props) => {
-  const [activeSection, setActiveSection] = useState("experience");
+  const [activeSection, setActiveSection] = useState("about");
 
   const handleIntersection = (entries: any[], observer: any) => {
     entries.forEach(
