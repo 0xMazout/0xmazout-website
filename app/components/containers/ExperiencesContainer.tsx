@@ -8,11 +8,32 @@ const ExperiencesContainer = (props: Props) => {
   const experiences: Experience[] = [
     {
       role: "Senior Software Engineer Web3",
+      company: "Butter",
+      companyLink: "https://butterd.notion.site",
+      startDate: "03 - 2024",
+      endDate: "Ongoing",
+      description: `Building the Butter Web3 Platform. Focusing on a Game to handle Governance subjects`,
+      techStack: [
+        "NextJs",
+        "React",
+        "SIWE",
+        "Typescript",
+        "Tailwind",
+        "NeonDB",
+        "Git",
+        "Drizzle ORM",
+        "Wagmi",
+        "Figma",
+      ],
+      links: [{ name: "Mirror.xyz", url: "https://mirror.xyz/butterd.eth" }],
+    },
+    {
+      role: "Senior Software Engineer Web3",
       company: "Usual",
       companyLink: "https://usual.money/",
       startDate: "12 - 2023",
       endDate: "03 - 2024",
-      description: `Leading Web3 Frontend Subjects, building hooks to interract with smart contracts , Acquiring data from the blockchain,    `,
+      description: `Leading Web3 Frontend Subjects, building hooks to interract with smart contracts , Acquiring data from the blockchain`,
       techStack: [
         "NextJs",
         "React",
